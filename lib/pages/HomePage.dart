@@ -5,15 +5,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int number=30;
-    String name="Prathamesh";
-    return  Scaffold(
+    int number = 30;
+    String name = "Prathamesh";
+    return Scaffold(
       appBar: AppBar(
         title: Text("Catalogue App"),
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $number challenge by $name"),
+          child: Text("Welcome to $number  days challenge by $name"),
         ),
       ),
       drawer: Drawer(),
